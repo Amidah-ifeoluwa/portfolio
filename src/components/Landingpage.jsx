@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import { FaGlobe } from "react-icons/fa";
+import { FaGithub, } from "react-icons/fa6";
+const links = [
+    { name: <FaGithub className="text-[25px]" />, href: 'https://github.com/Amidah-ifeoluwa/ifeswork' },
+    { name: <FaGlobe className="text-[25px]" />, href: 'https://ifeslanding.netlify.app/' },
+]
 
 const Landingpage = ({ landing }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,6 +21,13 @@ const Landingpage = ({ landing }) => {
         <div className="slider w-2/5 h-auto">
 
             <div className="slide">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                    {links.map((link) => (
+                        <a key={link.name} href={link.href}>
+                            {link.name} <span aria-hidden="true">&rarr;</span>
+                        </a>
+                    ))}
+                </div>
                 <img src={landing[currentIndex]} alt={`Slide ${currentIndex}`} />
             </div>
 

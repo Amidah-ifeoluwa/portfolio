@@ -49,15 +49,15 @@ const Main = () => {
                         <div className='block my-16 '>
                             <div className='text-lime-100 text-[15px] md:text-[28px] my-12 font-bold'>
                                 <div >
-                                    <h4 className='text-[32px] md:text-[52px] font-bold md:pt-0 pt-8'>I am a</h4>
+                                    <h4 className='text-[32px] md:text-[52px] font-bold md:pt-0 pt-8'>I'm Agbaje Ifeoluwa </h4>
                                 </div>
                                 <TypeAnimation
                                     sequence={[
-                                        'Frontend Developer',
+                                        'a Frontend Developer',
                                         1000,
-                                        'Backend Developer',
+                                        'a Backend Developer',
                                         1000,
-                                        'Graphic Designer',
+                                        'a Graphic Designer',
                                         1000,
                                         // 'We produce food for Chinchillas',
                                         // 1000
