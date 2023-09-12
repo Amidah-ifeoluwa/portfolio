@@ -13,16 +13,16 @@ root.render(
 );
 
 
-// tailwind.config.js
-module.exports = {
-    purge: [],
-    darkMode: false,
-    theme: {
-        extend: {},
-    },
-    variants: {},
-    plugins: [],
-}
+// // tailwind.config.js
+// module.exports = {
+//     purge: [],
+//     darkMode: false,
+//     theme: {
+//         extend: {},
+//     },
+//     variants: {},
+//     plugins: [],
+// }
 
 
 
