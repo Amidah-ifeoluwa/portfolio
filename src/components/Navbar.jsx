@@ -11,12 +11,12 @@ export default function Navbar() {
 
     // start mobile first plus facile
     return (
-        <nav className=" mt-2 fixed top-0 w-full bg-black md:bg-transparent items-center p-4 flex md:p-8 md:px-32 z-10 backdrop-blur bg-black/80">
+        <nav className=" mt-1 fixed top-0 w-full bg-black items-center p-4 flex md:p-6 md:px-32 z-10 bg-black">
             <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
                 <h1 className="text-xl text-white font-bold cursor-pointer">IFEOLUWA</h1>
 
                 <button
-                    className="flex justify-end md:hidden ring-1 ring-black rounded"
+                    className="flex justify-end md:hidden ring-1 ring-white rounded"
                     onClick={showNav}
                 >
                     <i className="fas fa-bars text-white w-8 h-8 pt-2 flex justify-center items-center hover:text-white"></i>

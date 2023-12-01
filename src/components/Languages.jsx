@@ -5,7 +5,7 @@ import { FaBootstrap, FaReact } from "react-icons/fa6";
 
 export default function Example() {
     return (
-        <div className="bg-black pyhy`-24 sm:py-24">
+        <div className="bg-black pyhy`-24 sm:py-24 pb-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <h2 className="text-center text-lg font-bold leading-8 text-gray-500">
                     My area of specialization

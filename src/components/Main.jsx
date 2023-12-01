@@ -43,13 +43,13 @@ const Main = () => {
 
         <section id='home'>
             {/* <div className="w-full h-full bg-center bg-cover bg-[url('https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg?w=1060&t=st=1694277705~exp=1694278305~hmac=75a5d5d39657d5b0c4c04e390d8515bd384e378791207ced40794c2e1566ba54')]"> */}
-            <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')]">
-                <div className='block justify-around items-center pt-0 md:flex md:pt-32 bg-cover bg-center' >
-                    <div className='ml-5 md:ml-12'>
-                        <div className='block my-16 '>
-                            <div className='text-lime-100 text-[15px] md:text-[28px] my-12 font-bold'>
+            <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')] mt-0">
+                <div className='block justify-around items-center pt-0 md:flex md:pt-16 bg-cover bg-center w-full' >
+                    <div className='ml-5 md:ml-0 md:w-4/12 w-11/12'>
+                        <div className='block mt-16 md:mt-32'>
+                            <div className='text-white text-[15px] md:text-[15px] mt-18 mb-7 font-bold'>
                                 <div >
-                                    <h4 className='text-[32px] md:text-[52px] font-bold md:pt-0 pt-8'>I'm Agbaje Ifeoluwa </h4>
+                                    <h4 className='text-[32px] md:text-[32px] font-bold md:pt-0 pt-8'>I'm Agbaje Ifeoluwa </h4>
                                 </div>
                                 <TypeAnimation
                                     sequence={[
@@ -69,29 +69,36 @@ const Main = () => {
                                 />
                             </div>
                             <div>
-                                <p className='text-[20px] md:text-[23px] text-lime-100 pd-0 md:pb-8'>
-                                    I like to craft solid and scalable frontend products <br />
-                                    <span> with great user experience</span>
+                                <p className='text-[16px] md:text-[16px] text-white pd-0'>
+                                    A dedicated Frontend Developer on a mission to transform
+                                    pixels into immersive experiences. As a digital artisan,
+                                    I specialize in crafting user interfaces that not only
+                                    meet the functionaldemands but also enchant users with
+                                    seamless interactivity and stunning aesthetics.
                                 </p>
                             </div>
+                            <button className='bg-black text-white items-center p-3 px-10 border-solid border-white border-2 my-8 md:mt-12 hover:-translate-y-2'>
+                                <a href="project">Explore My Works</a>
+                            </button>
 
                         </div>
-                        <div className='flex text-lime-100'>
+                        {/* <div className='flex text-white'>
                             <div>
-                                <p className='text-[15px] md:text-[20px]'>Highly skilled at progressive <br />
+                                <p className='text-[14px] md:text-[16px]'>Highly skilled at progressive <br />
                                     enhancement, design systems & <br />
                                     UI Engineering</p>
                             </div>
-                            <div className='pl-10 md:pl-16 text-lime-100 pb-10 md:pb-0'>
-                                <p className='text-[15px] md:text-[20px]'>Proven experience building <br />
-                                    successful products for clients <br />
-                                    across several countries.</p>
+                            <div className='pl-10 md:pl-16 text-white pb-10 md:pb-0'>
+                                <p className='text-[14px] md:text-[16px]'>Proven experience building
+                                    successful  <br />products for clients
+                                    across several <br />countries.</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className='items-center'>
-                        <img src={ife} alt="Ife" className='items-center md:w-[400px] w-full md:max-w-full md:h-auto mr-0 md:mr-44 md:mb-0 mb-10' />
+                    <div className='items-center w-full md:w-4/12'>
+                        <img src={ife} alt="Ife" className='items-center md:w-[320px] w-9/12 ml-12 md:max-w-full md:h-auto mr-0 md:mt-28 md:mb-0 mb-10' />
                     </div>
+                    {/* <div className="md:w-[380px] w-full md:max-w-full md:h-auto bg-white z-10"></div> */}
                 </div>
             </div>
             <RevealOnScroll>

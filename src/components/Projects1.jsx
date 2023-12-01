@@ -36,17 +36,17 @@ const Projects1 = () => {
     return (
         <section id='Home' className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')]">
             <RevealOnScroll>
-                <div className='block pl-2 md:pl-96 pt-10 md:pt-32 text-lime-100 '>
+                <div className='block md:w-10/12 w-full md:pl-64 pt-10 md:pt-32 pt-14 text-white px-2'>
                     <h4 className='text-[14px] text-blue-700  pb-5'>MY LATEST PROJECTS</h4>
-                    <h1 className='text-[30px] md:text-[50px] leading-none'>Take a look at some of the latest <br />projects I've been working on.</h1>
+                    <h1 className='text-[26px] md:text-[40px] leading-none'>Take a look at some of the latest projects I've been working on.</h1>
                 </div>
             </RevealOnScroll>
-            <RevealOnScroll>
-                <div className=' flex justify-around'>
-                    <div className="flex items-center justify-center my-0 md:my-32">
-                        <div className="relative block group">
-                            <h6 className='text-blue-700 underline p:2 md:pb-5 hover:text-lime-100'><a href="https://filmbyoasis.netlify.app/index2">FILMBYOASIS</a></h6>
-                            <a href="https://filmbyoasis.netlify.app/index2"><img src={filmbyoasis1} alt="weaid" className='w-[700px] max-w-full h-auto hover:brightness-90' /></a>
+            <div className=' flex justify-around px-5'>
+                <RevealOnScroll>
+                    <div className="my-0 md:my-32 ">
+                        <div className="relative block group mt-10">
+                            <h6 className='text-blue-700 underline md:pb-5 hover:text-white'><a href="https://filmbyoasis.netlify.app/index2">FILMBYOASIS</a></h6>
+                            <a href="https://filmbyoasis.netlify.app/index2"><img src={filmbyoasis1} alt="weaid" className='w-[550px] max-w-full h-auto hover:brightness-90' /></a>
                             <div className="relative">
                                 <div className="">
                                     {/* Hidden content */}
@@ -54,7 +54,7 @@ const Projects1 = () => {
         translate-y-8 opacity-0
         group-hover:opacity-100
         group-hover:translate-y-0">
-                                        <div className=" bg-gray-700 p-0 md:p-2">
+                                        <div className=" bg-gray-700 p-0 md:p-1 mb-20">
                                             <a href="https://github.com/Amidah-ifeoluwa/film-by-oasis"><FaGithub className="text:[15px] md:text-[30px]" /></a>
                                         </div>
                                     </div>
@@ -63,14 +63,16 @@ const Projects1 = () => {
                             </div>
                         </div>
                     </div>
+                </RevealOnScroll>
 
 
 
 
-                    <div className=' mt-44 md:mt-72 cursor-pointer'>
+                <RevealOnScroll>
+                    <div className=' mt-32 md:mt-72 cursor-pointer'>
                         <div className="relative block group">
-                            <h6 className='text-blue-700 underline p:2 md:pb-5 hover:text-lime-100'><a href="https://weeaid.netlify.app/home.html">WEAID</a></h6>
-                            <a href="https://weeaid.netlify.app/home.html"><img src={weaid1} alt="weaid" className='w-[700px] max-w-full h-auto hover:brightness-90' /></a>
+                            <h6 className='text-blue-700 underline p:2 md:pb-5 hover:text-white'><a href="https://weeaid.netlify.app/home.html">WEAID</a></h6>
+                            <a href="https://weeaid.netlify.app/home.html"><img src={weaid1} alt="weaid" className='w-[550px] max-w-full h-auto hover:brightness-90' /></a>
                             <div className="relative">
                                 <div className="">
                                     {/* Hidden content */}
@@ -78,7 +80,7 @@ const Projects1 = () => {
         translate-y-8 opacity-0
         group-hover:opacity-100
         group-hover:translate-y-0">
-                                        <div className=" bg-gray-700 p-0 md:p-2">
+                                        <div className=" bg-gray-700 p-0 md:p-1">
                                             <a href="https://github.com/Amidah-ifeoluwa/WeAid"><FaGithub className="text:[15px] md:text-[30px]" /></a>
                                         </div>
                                     </div>
@@ -87,8 +89,8 @@ const Projects1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </RevealOnScroll>
+                </RevealOnScroll>
+            </div>
         </section>
     )
 }

@@ -37,24 +37,25 @@ const Service1 = () => {
     return (
         <section id='home' className=''>
             <RevealOnScroll>
-                <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background1.jpg')]">
-                    <div className='md:flex block md:mt-5 justify-normal md:px-24 md:mb-1'>
+                <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')]">
+                    <div className='md:flex block md:mt-5 justify-normal px-2 md:px-10 md:mb-1 w-full'>
                         <div className='text-lime-100'>
-                            <img src={ife} alt="service" className='md:w-[500px] w-full md:max-w-full md:h-auto my-8' />
+                            <img src={ife} alt="service" className='items-center md:w-[320px] w-9/12 ml-12 md:ml-28 md:max-w-full md:h-auto mr-0 md:mt-12 md:mb-0 mb-10' />
 
                         </div>
-                        <div className='block pl-3 md:pl-52 items-center pt-0 md:pt-24'>
-                            <div className='text-lime-100 pb-5 md:pb-3 md:text-[56px] text-[40px] font-bold' >
-                                <h1>My Services</h1>
+                        <div className='block pl-3 md:pl-60 items-center pt-0 md:pt-10 md:w-8/12 w-full'>
+                            <h1 className="text-[15px] text-blue-700">You dream, I build</h1>
+                            <div className='text-white py-5 md:pb-3 md:text-[32px] text-[28px] font-bold' >
+                                <h1>Where Innovation Meets Impeccable Development.</h1>
                             </div>
-                            <div className='text-lime-100 md:text-[20px] text-[15px] md:pr-0 pr-2'>
-                                Let's be honest and cut through the marketing bullshit,
-                                <br />you need a website that looks amazing and actually works.
-                                <br />The bottom line, that's what I do. If you want to learn more
-                                <br />about working with me, look through my website. <br />
+                            <div className='text-white md:text-[15px] text-[15px] md:pr-20 pr-2'>
+                                Let's be honest and cut through the marketing scheme,
+                                you need a website that looks amazing and actually works.
+                                The bottom line, that's what I do. If you want to learn more
+                                about working with me, look through my website.
                             </div>
                             <div>
-                                <button className='bg-black text-lime-100 p-4 px-14 border-solid border-lime-100 border-2 mt-4 hover:-translate-y-1'>
+                                <button className='bg-black text-white p-3 px-14 border-solid border-lwhite border-2 mt-10 hover:-translate-y-2'>
                                     <a href="service">Learn More</a>
                                 </button>
                             </div>
