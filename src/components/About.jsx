@@ -88,56 +88,48 @@ const About = () => {
                             I'm passionate about frontend development and committed to delivering exceptional results.
                         </p>
                     </div>
-                    <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-                        <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                    <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none flex">
+                        <div className="md:pt-0 pt-8 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white flex lg:gap-x-10">
                             {links.map((link) => (
                                 <a key={link.name} href={link.href} className="hover:text-blue-500">
                                     {link.name} <span aria-hidden="true">&rarr;</span>
                                 </a>
                             ))}
                         </div>
-                        {/* <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-                {stats.map((stat) => (
-                    <div key={stat.name} className="flex flex-col-reverse">
-                        <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                        <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
-                    </div>
-                ))}
-            </dl> */}
                     </div>
                 </div>
             </div>
             <RevealOnScroll>
 
                 <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')]">
-                    <div className='md:flex block md:mt-5 justify-normal md:px-24 md:mb-1'>
-                        <div className='text-lime-100'>
-                            <img src={ife} alt="service" className='md:w-[500px] w-full md:max-w-full md:h-auto my-8' />
+                    <div className='md:flex block md:mt-5 justify-normal md:px-24 mt-10 md:mb-1 w-full'>
+                        <div className='text-white'>
+                            <img src={ife} alt="service" className='md:w-[320px] w-9/12 ml-12 md:ml-28 md:max-w-full md:h-auto mr-0 md:mt-12 md:mb-0 mb-10' />
 
                         </div>
-                        <div className='block pl-3 md:pl-44 items-center pt-0 md:pt-24'>
-                            <div className='text-blue-600 pb-5 md:pb-3 md:text-[56px] text-[40px] font-bold' >
+                        <div className='block pl-3 md:pl-60 items-center pt-0 md:pt-10 md:w-8/12 w-full'>
+                            <div className='text-blue-600 pb-5 md:pb-3 md:text-[48px] text-[34px] font-bold' >
                                 <h1>About Me</h1>
                             </div>
-                            <div className='text-lime-100 md:text-[20px] text-[15px] md:pr-0 pr-2'>
-                                I'm Agbaje Amidah Ifeoluwa, a passionate and creative web<br />
-                                developer with a relentless pursuit of excellence in the digital<br />
-                                eye for design and a deep understanding of cutting-edge web<br />
-                                technologies, I bring your online vision to life. besides the <br />
-                                work aspect, I really love listening to music while working and <br />
+                            <div className='text-white md:text-[15px] text-[15px] md:pr-0 pr-2'>
+                                I'm Agbaje Amidah Ifeoluwa, a passionate and creative web
+                                developer with a relentless pursuit of excellence in the digital
+                                eye for design and a deep understanding of cutting-edge web
+                                technologies, I bring your online vision to life. besides the
+                                work aspect, I really love listening to music while working and
                                 i'm obsessed with black.
                             </div>
 
 
                             <div className="mx-auto mt-3 max-w-2xl lg:mx-0 lg:max-w-none">
-                                <div className="block  grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                                <div className="md:pt-0 pt-8 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white flex lg:gap-x-10">
                                     {links.map((link) => (
-                                        <a key={link.name} href={link.href} className=" hover:text-blue-700">
+                                        <a key={link.name} href={link.href} className="hover:text-blue-500">
                                             {link.name} <span aria-hidden="true">&rarr;</span>
                                         </a>
                                     ))}
                                 </div>
-                                <button className='bg-black text-lime-100 p-4 px-14 border-solid border-lime-100 border-2 mt-4 hover:-translate-y-1'>
+                                <button className='bg-black text-white p-3 px-14 border-solid border-lwhite border-2 mt-7 hover:-translate-y-2'>
                                     <a
                                         className="button"
                                         href="../assets/CV.pdf"

@@ -39,7 +39,7 @@ const Service1 = () => {
             <RevealOnScroll>
                 <div className="w-full h-full bg-center bg-cover bg-[url('./assets/background3.jpg')]">
                     <div className='md:flex block md:mt-5 justify-normal px-2 md:px-10 md:mb-1 w-full'>
-                        <div className='text-lime-100'>
+                        <div className='text-white'>
                             <img src={ife} alt="service" className='items-center md:w-[320px] w-9/12 ml-12 md:ml-28 md:max-w-full md:h-auto mr-0 md:mt-12 md:mb-0 mb-10' />
 
                         </div>

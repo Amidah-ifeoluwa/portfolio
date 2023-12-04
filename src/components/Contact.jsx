@@ -26,10 +26,10 @@ export default function Contact() {
     }
 
     return (
-        <div className=" px-3 py-12 md:py-0 lg:px-8">
+        <div className=" px-3 py-12 md:py-0 lg:px-8 md:mb-20 mb-10">
             <div className="w-full h-full bg-center bg-cover bg-[url('https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg?w=1060&t=st=1694277705~exp=1694278305~hmac=75a5d5d39657d5b0c4c04e390d8515bd384e378791207ced40794c2e1566ba54')]">
                 <RevealOnScroll>
-                    <div className=' block md:pl-56 md:p-16 p-0 text-white md:text-left text-center'>
+                    <div className='block md:pl-56 md:p-16 p-0 text-white md:text-left text-center'>
                         <h4 className='text-[14px] text-blue-700 pl-5 pb-5'>WORKING WITH IFEOLUWA</h4>
                         <h1 className='md:text-[32px] text-[20px]  px-2 md:px-5 leading-none'>I would love to learn about your project
                             and walk you through my build process in more detail. Reach out today and we'll talk soon.</h1>

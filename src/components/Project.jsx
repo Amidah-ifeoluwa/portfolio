@@ -60,10 +60,10 @@ const Project = ({ oasis, we, philip, auth, ba, landing, au, calc }) => {
                 <Bata ba={ba} />
                 <Landingpage landing={landing} />
             </div>
-            <div className='flex justify-around'>
+            {/* <div className='flex justify-around'>
                 <Auth au={au} />
                 <Calculator calc={calc} />
-            </div>
+            </div> */}
 
         </div>
     )

@@ -81,7 +81,7 @@ export default function Footer() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="text-white hover:text-white font-semibold block pb-2 text-sm"
+                                        <a className="text-white hover:text-blue-700 font-semibold block pb-2 text-sm"
                                             href="contact">Contact
                                         </a>
                                     </li>
@@ -99,7 +99,7 @@ export default function Footer() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="text-white hover:text-white font-semibold block pb-2 text-sm"
+                                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                                             href="https://twitter.com/ifeoluwa_amidah?t=IyIrmTt1FP-W5XdhYnwx7g&s=09">Twitter
                                         </a>
                                     </li>

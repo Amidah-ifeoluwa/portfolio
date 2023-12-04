@@ -92,21 +92,21 @@ export default function Service() {
                                 </p>
                             </div>
                             <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-                                <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                                <div className="md:pt-0 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white flex lg:gap-x-10">
                                     {links.map((link) => (
-                                        <a key={link.name} href={link.href}>
+                                        <a key={link.name} href={link.href} className="hover:text-blue-500">
                                             {link.name} <span aria-hidden="true">&rarr;</span>
                                         </a>
                                     ))}
                                 </div>
                                 {/* <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-                            {stats.map((stat) => (
-                                <div key={stat.name} className="flex flex-col-reverse">
-                                    <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                                    <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
-                                </div>
-                            ))}
-                        </dl> */}
+                                    {stats.map((stat) => (
+                                        <div key={stat.name} className="flex flex-col-reverse">
+                                            <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
+                                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
+                                        </div>
+                                    ))}
+                                </dl> */}
                             </div>
                         </div>
                     </div>
@@ -114,9 +114,9 @@ export default function Service() {
 
                 <div>
                     <RevealOnScroll>
-                        <div className=' relative block md:pl-72 md:p-24 py-10 text-lime-100 bg-black md:text-left text-center'>
+                        <div className=' relative block md:pl-72 md:p-24 py-10 text-white bg-black md:text-left text-center'>
                             <h4 className='text-[14px] text-blue-700  pb-5'>WORKING WITH IFEOLUWA</h4>
-                            <h1 className='text-[20px] md:text-[50px] leading-none'>Take a look at some of my latest <br />projects that I’ve been working on.</h1>
+                            <h1 className='text-[20px] md:text-[46px] leading-none'>Take a look at some of my latest <br />projects that I’ve been working on.</h1>
                         </div>
                     </RevealOnScroll>
                 </div>
@@ -183,7 +183,7 @@ export default function Service() {
                                                 <i className="fas fa-award"></i>
                                             </div>
                                             <h6 className="text-xl font-semibold">Interview</h6>
-                                            <p className="mt-2 mb-4 text-gray-600">
+                                            <p className="mt-2 mb-4">
                                                 I come in with a lot of questions,
                                                 which helps guide the conversation
                                                 along and share their vision.
@@ -201,7 +201,7 @@ export default function Service() {
                                             <h6 className="text-xl font-semibold">
                                                 Build
                                             </h6>
-                                            <p className="mt-2 mb-4 text-gray-600">
+                                            <p className="mt-2 mb-4">
                                                 After our interview, we'll go through revision
                                                 rounds to ensure a successful site build, involving extensive
                                                 communication, design, and development work.
@@ -210,7 +210,7 @@ export default function Service() {
                                     </div>
                                 </div>
 
-                                <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+                                <div className="pt-0 md:pt-6 w-full md:w-4/12 px-4 text-center">
                                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                         <div className="px-4 py-5 flex-auto">
                                             <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -219,7 +219,7 @@ export default function Service() {
                                             <h6 className="text-xl font-semibold">
                                                 Verified Company
                                             </h6>
-                                            <p className="mt-2 mb-4 text-gray-600">
+                                            <p className="mt-2 mb-4">
                                                 Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
                                             </p>
                                         </div>
@@ -229,12 +229,12 @@ export default function Service() {
                         </div>
                     </section>
                     <div>
-                        <div className='  block md:pl-64 md:p-24 text-lime-100 md:text-left text-center'>
+                        <div className='  block md:pl-block md:pl-56 md:p-16 p-0 text-white md:text-left text-center64 md:p-24 text-lime-100 md:text-left text-center mb-10'>
                             <h4 className='text-[14px] text-blue-700 pl-5 pb-5'>WORKING WITH IFEOLUWA</h4>
-                            <h1 className='md:text-[50px] text-[20px]  px-5 leading-none'>I would love to learn about your project
-                                and <br /> walk you through my build process in more <br /> detail. Reach out today and we’ll talk soon.</h1>
+                            <h1 className='md:text-[32px] text-[20px]  px-2 md:px-5 leading-none'>I would love to learn about your project
+                                and walk you through my build process in more detail. Reach out today and we’ll talk soon.</h1>
                             <div>
-                                <button className='bg-black text-lime-100 p-4 px-14 border-solid md:ml-5  border-lime-100 border-2 mt-7 md:mt-10 hover:-translate-y-1'>
+                                <button className='bg-black text-white p-3 px-14 border-solid ml-5 border-lwhite border-2 mt-8 hover:-translate-y-2'>
                                     <a href="service">Contact Me</a>
                                 </button>
                             </div>
