@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { navbarData } from "./navbarData";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa6";
 
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
@@ -19,7 +20,7 @@ export default function Navbar() {
                     className="flex justify-end md:hidden ring-1 ring-white rounded"
                     onClick={showNav}
                 >
-                    <i className="fas fa-bars text-white w-8 h-8 pt-2 flex justify-center items-center hover:text-white"></i>
+                    <FaBars className="text-white m-1" />
                 </button>
 
                 <ul
